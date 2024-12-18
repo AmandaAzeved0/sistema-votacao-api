@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.NoArgsConstructor;
-import org.sicredi.enums.VotoEnum;
+import org.sicredi.model.enums.VotoEnum;
 
 import java.time.LocalDateTime;
 

@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.sicredi.enums.StatusSessaoEnum;
+import org.sicredi.model.enums.StatusSessaoEnum;
 
 import java.time.LocalDateTime;
 @Table(name = "sessao_votacao")

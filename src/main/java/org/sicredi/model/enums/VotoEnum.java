@@ -1,4 +1,4 @@
-package org.sicredi.enums;
+package org.sicredi.model.enums;
 
 public enum VotoEnum {
     SIM,
