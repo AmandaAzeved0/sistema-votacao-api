@@ -86,7 +86,7 @@ Este é um sistema de votação desenvolvido em **Spring Boot 3** com uma arquit
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/sistema-votacao-sicredi.git
+   git clone https://github.com/AmandaAzeved0/sistema-votacao-api.git
    cd sistema-votacao-sicredi
    ```
 
