@@ -70,9 +70,9 @@ Este é um sistema de votação desenvolvido em **Spring Boot 3** com uma arquit
    ```
 
 2. Credenciais padrão:
-    - **Banco**: votacao
-    - **Usuário**: admin
-    - **Senha**: admin
+    - **Banco**: desafio_sicredi_db
+    - **Usuário**: root
+    - **Senha**: root
 
 
 3. Acesse o painel de gerenciamento do RabbitMQ:
@@ -87,7 +87,6 @@ Este é um sistema de votação desenvolvido em **Spring Boot 3** com uma arquit
 1. Clone o repositório:
    ```bash
    git clone https://github.com/AmandaAzeved0/sistema-votacao-api.git
-   cd sistema-votacao-sicredi
    ```
 
 2. Compile o projeto:
