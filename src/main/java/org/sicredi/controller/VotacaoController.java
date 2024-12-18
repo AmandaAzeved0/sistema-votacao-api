@@ -59,18 +59,4 @@ public class VotacaoController {
         return ResponseEntity.ok(new VotoResponseDTO("Voto registrado com sucesso!"));
     }
 
-
-    @PostMapping("/votar-em-lote")
-    public ResponseEntity<String> registrarVotosEmLote(@RequestBody @Valid List<VotoRequestDTO> votos) {
-        votos.forEach(voto ->
-                {
-                    try {
-                        votoService.registrarVoto(voto.getSessaoId(), voto.getAssociadoId(), voto.getVoto());
-                    } catch (BadRequestException e) {
-                        throw new RuntimeException(e);
-                    }
-                }
-        );
-        return ResponseEntity.ok("Votos registrados com sucesso!");
-    }
 }
